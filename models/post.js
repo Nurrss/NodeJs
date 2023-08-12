@@ -14,7 +14,7 @@ const postSchema = new Schema({
     type: String,
     required: true,
   },
-  time:{
+  time: {
     type: Date
   }
 }, { timestamps: true });
